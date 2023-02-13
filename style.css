@@ -1,0 +1,155 @@
+*{padding: 0%;
+margin: 0;
+}
+body {background-color: #00d1b9;}
+/*HEADER*/
+header{
+    height:400px;
+    background-position: 25% 35%;
+    --opacidad-negro: 0.8;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("assets/design1_image1.jpg");
+      
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: #F7DD2E;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+   
+    font-family: 'Koulen', cursive;
+}
+/*LOGO Y TITULO*/
+#LOGO{position: absolute;
+left: 80%;
+top: -150px;
+height: 250px;}
+
+.titulo{ background-color: black;
+    position:relative;
+    height: 100px;
+    width: 100%;
+    
+
+}
+h2{color: white;
+    font-family: 'Koulen', cursive;
+text-align: center;
+
+font-size: 60px;
+position: relative;
+}
+
+
+/*NAVBAR*/
+nav{
+    position:sticky;
+    width: 70px;
+    margin-top: 50px;
+    transition: all 0.3s linear;
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
+  }
+  nav li{
+    height: 60px;
+    position:relative;
+  }
+  nav li a{
+    color: rgb(0, 0, 0);
+    display: flex;
+    height: 100%;
+    width: 100%;
+    line-height: 60px;
+    padding-left:15%;
+    border-bottom: 1px solid rgba(0,0,0,.4);
+    transition: all .1s linear;
+    text-decoration: none;
+  
+  }
+  nav li:nth-child(1) a{
+    background: #F7DD2E;
+  }
+  nav li:nth-child(2) a{
+    background: #F7DD2E;
+  }
+  nav li:nth-child(3) a{
+    background: #F7DD2E;
+  }
+
+ 
+  ul li a span{
+    display:none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Koulen', cursive;
+    font-size: 22px;
+  }
+  a:hover {
+    z-index:1;
+    width: 200px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+  }
+  ul li:hover a span{
+    padding-left: 15%;
+    display: block;
+    text-align: center;
+
+  }
+
+/*IMAGEN REPRESENTATIVA Home*/
+#imagen1content{position: absolute;
+left: 70%;
+top: 65%;
+width: 500px;
+border-radius: 10%;}
+
+/*descripcionHOME*/
+.descripcionHome{position:absolute;
+    
+left: 15%;
+top: 55%;
+font-family: 'Koulen', cursive;
+}
+.descripcionHome h3 {color: #F7DD2E;
+font-size:60px ;}
+.descripcionHome p{font-size:30px ;}
+/*imagen representativa about*/
+#imagen2content{position: absolute;
+    left: 70%;
+    top: 65%;
+    width: 500px;
+    height: auto;
+border-radius: 10%;}
+
+/*descripcionAbout*/
+.descripcionAbout{position:absolute;
+    left: 15%;
+    top: 55%;
+    font-family: 'Koulen', cursive;
+    width: 50%;
+    }
+    .descripcionAbout h3 {color: #F7DD2E;
+    font-size:40px ;}
+    .descripcionAbout p{font-size:20px ;}
+    
+    /*imagen representativa Contact*/
+#imagen3content{position: absolute;
+    left: 70%;
+    top: 58%;
+    width: 500px;
+border-radius: 10%;}
+
+    /*descripcionCONTACT*/
+.descripcionContact{position:absolute;
+    
+    left: 15%;
+    top: 60%;
+    font-family: 'Koulen', cursive;
+   
+    }
+    .descripcionContact h3 {color: #F7DD2E;
+    font-size:60px ;}
+    .descripcionContact p{font-size:50px ;}
