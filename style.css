@@ -21,7 +21,12 @@ header {
 
 /*TITULO*/
 main {
-  flex-wrap: wrap;
+  flex-grow: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .titulo {
@@ -167,44 +172,45 @@ aside {
 
 .descripcionAbout {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   font-family: 'Koulen', cursive;
   align-items: center;
+  flex-direction: column;
 }
 
 .descripcionAbout h3 {
   color: #F7DD2E;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .descripcionAbout p {
-  font-size: 20px;
+  font-size: 25px;
   color: white;
 }
 
 .aboutmision {
-  width: 500px;
-  background-color: black;
+  width: 400px;
+ 
   border-radius: 1%;
   padding: 1%;
   align-self: center;
 }
 
 .aboutvision {
-  width: 500px;
-  background-color: black;
+  width: 400px;
+ 
   border-radius: 1%;
   padding: 1%;
   align-self: center;
 }
 
 .aboutginfo {
-  width: 500px;
-  background-color: black;
+  width: 400px;
+  
   border-radius: 1%;
   padding: 1%;
-  align-self: flex-end;
+  align-self: center;
 }
 
 
@@ -235,47 +241,73 @@ aside {
   font-size: 50px;
   width: 1000px;
 }
-
+/*GameINFO*/
 .Schedule {
   background-color: #F7DD2E;
+  
+  width: 40rem;
+  table-layout: auto;
+  border-spacing: 25px;
+  border-radius: 5%;
   color: black;
   font-family: 'Koulen', cursive;
   display: flex;
   justify-content: center;
+  font-size: 20px;
 
 }
+
 
 .condicionschedule {
   color: black;
   font-family: 'Koulen', cursive;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  
 }
-
+.condicionschedule h2{font-size: 30px;}
+.condicionschedule p{font-size: 20px;}
 .subcontent {
   color: black;
   font-family: 'Koulen', cursive;
-  display: flex;
-  justify-content: center;
+  align-items: center;
+ font-size: 20px;
 }
-
+/*RULES*/
 .informationcontainer {
   color: black;
   font-family: 'Koulen', cursive;
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 800px;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 50px;
+  min-height: fit-content;
+  width: 90%;
+  align-items: center;
+  text-align: center;
+
+  
 }
+.informationcontainer h2{
+  font-size:  35px; ;
+}
+.informationcontainer p{
+  font-size:  20px; ;
+}
+
 .rulesinformation{
   color: black;
   font-family: 'Koulen', cursive;
   display: flex;
   justify-content: center;
   flex-direction: row;
-  width: 800px;
   flex-wrap: wrap;
+  gap: 50px;
+    min-height: fit-content;
+    width: 90%;
+}
+.rulesinformation h2{font-size: 35px;
+}
+.rulesinformation li{font-size: 20px;
+}
+.rulesinformation h4{font-size: 25px;
 }
