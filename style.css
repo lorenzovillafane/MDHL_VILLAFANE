@@ -297,8 +297,8 @@ header {
   text-align: center;
   flex-wrap: wrap;
   margin-top: 50px;
- 
-  
+
+
 
 }
 
@@ -323,7 +323,10 @@ header {
   font-size: 25px;
   text-align: center;
 }
-iframe{border-radius: 10px;}
+
+iframe {
+  border-radius: 10px;
+}
 
 /*CONTACT*/
 .mainContact {
@@ -389,33 +392,325 @@ form h3 {
 form p {
   color: white;
 }
-#agree{color: #fddb3a;}
+
+#agree {
+  color: #fddb3a;
+}
+
 #Send {
   width: 5%;
   margin-left: 47.5%;
   text-align: center;
 }
-button{color: black;
-background-color: #fddb3a;
-border:25px #131313;
-font-size: 20px;
-font-family: 'Koulen', cursive;
-margin-top: 10px;}
+
+button {
+  color: black;
+  background-color: #fddb3a;
+  border: 25px #131313;
+  font-size: 20px;
+  font-family: 'Koulen', cursive;
+  margin-top: 10px;
+}
+
 /*SHOWDATA*/
-.mainData{font-family: 'Koulen', cursive;
+.mainData {
+  font-family: 'Koulen', cursive;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   min-height: fit-content;
   width: 100%;
-margin-top: 50px;}
-tr {background-color: #fddb3a;
+  margin-top: 50px;
+}
+
+tr {
+  background-color: #fddb3a;
   font-size: 25px;
   table-layout: auto;
   border-spacing: 10px;
   border-radius: 5%;
   width: 50rem;
 }
-tr p{color:black;
+
+tr p {
+  color: black;
 }
-tr ul { color: black;}
+
+tr ul {
+  color: black;
+}
+
+
+/*MEDIAQUERIES*/
+
+@media (max-width:768px) {
+  .navMenu a {
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    display: flex;
+    width: 100%;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    justify-content: center;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: fit-content;
+    width: 100%;
+    background-color: black;
+  }
+
+
+  .Titulo h1 {
+    align-self: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+  }
+
+  #imagen1content {
+    height: auto;
+    width: 300px;
+    align-self: flex-end;
+    border-radius: 10%;
+    margin-top: 25px;
+  }
+
+  #imagen2content {
+    height: auto;
+    width: 300px;
+    align-self: flex-end;
+    border-radius: 10%;
+    margin-top: 25px;
+  }
+
+  #imagen3content {
+    height: auto;
+    width: 300px;
+    align-self: flex-end;
+    border-radius: 10%;
+    margin-top: 25px;
+  }
+
+  .Rules h3 {
+    color: #fddb3a;
+    font-size: 30px;
+  }
+
+  .Rules ol {
+    color: white;
+    font-size: 20px;
+  }
+
+  .Rules p {
+    color: white;
+    font-size: 20px;
+  }
+
+  .Tituloschedule {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .Tituloschedule h2 {
+    color: #fddb3a;
+    font-size: 30px;
+
+  }
+
+  .Tituloschedule p {
+    color: white;
+    font-size: 20px;
+  }
+
+  .scheduleC {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .Schedule {
+    color: black;
+    background-color: transparent;
+    ;
+
+    width: 40rem;
+    table-layout: auto;
+    border-spacing: 0px;
+    font-family: 'Koulen', cursive;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .Schedule th {
+    font-size: 22px;
+  }
+
+  .Schedule td {
+    font-size: 22px;
+  }
+
+  .descripcionContact {
+    color: white;
+    font-size: 30px;
+    align-self: center;
+  }
+
+
+}
+
+@media (min-width:1920px) {
+  .Titulo h1 {
+    align-self: center;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+  }
+
+  #imagen1content {
+    height: auto;
+    width: 700px;
+    align-self: flex-end;
+    border-radius: 10%;
+    margin-top: 25px;
+  }
+
+  #imagen2content {
+    height: auto;
+    width: 700px;
+    align-self: flex-end;
+    border-radius: 10%;
+    margin-top: 25px;
+  }
+
+  #imagen3content {
+    height: auto;
+    width: 700px;
+    align-self: flex-end;
+    border-radius: 10%;
+    margin-top: 25px;
+  }
+
+  .Rules h3 {
+    color: #fddb3a;
+    font-size: 40px;
+  }
+
+  .Rules ol {
+    color: white;
+    font-size: 30px;
+  }
+
+  .Rules p {
+    color: white;
+    font-size: 30px;
+  }
+
+  .Tituloschedule {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .Tituloschedule h2 {
+    color: #fddb3a;
+    font-size: 50px;
+
+  }
+
+  .Tituloschedule p {
+    color: white;
+    font-size: 35px;
+  }
+
+  .scheduleC {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .Schedule {
+    color: black;
+    background-color: #fddb3a;
+    font-size: 30px;
+    width: 60rem;
+    table-layout: auto;
+    border-spacing: 30px;
+    border-radius: 5%;
+    font-family: 'Koulen', cursive;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .Schedule th {
+    font-size: 40px;
+  }
+
+  .Schedule td {
+    font-size: 40px;
+  }
+
+  .descripcionContact {
+    color: white;
+    font-size: 50px;
+    align-self: center;
+  }
+
+  .location h2 {
+    color: #fddb3a;
+    font-size: 45px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .location h3 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .subcontent {
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+  }
+
+  label {
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+  }
+
+
+  button {
+    color: black;
+    background-color: #fddb3a;
+    border: 25px #131313;
+    font-size: 35px;
+    font-family: 'Koulen', cursive;
+    margin-top: 10px;
+  }
+
+  form h3 {
+    font-size: 35px;
+
+  }
+
+  form h2 {
+    font-size: 35px;
+  }
+
+  form p {
+    font-size: 30px;
+  }
+
+}

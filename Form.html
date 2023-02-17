@@ -35,140 +35,143 @@
       <h2>REGISTRATION FORM</h2>
     </div>
     <form action="./show_data.html">
-    <fieldset>
-      <label>Player's First Name:
-        <input name="Firstname" maxlength="80" type="text"><span style="color:red;">*</span>
-      </label>
-      <label>Last Name:
-        <input name="Lastname" maxlength="80" type="text"><span style="color:red;">*</span>
-      </label>
-      <br>
-      <label>Street Address:
-        <input name="Saddress" maxlength="80" type="text"><span style="color:red;">*</span>
-      </label>
-      <br>
-      <label>City:
-        <input name="city" maxlength="80" type="text"><span style="color:red;">*</span>
-      </label>
-      <label>Zip Code:
-        <input name="zipcode" type="number" id="Zip" min="1" max="100000000">
-      </label>
-      <br>
-      <label>Birth Date (mm/dd/yyyy)
-        <input name="Birthd" type="date">
-      </label>
-      <label>Gender: 
-      <label>Male
-        <input name="Gender" type="radio" value="Male">
-      </label>
-      <label>Female
-        <input name="Gender" type="radio"value="Female">
-      </label>
-    </label>
-      <br>
-      <label>
-      Grade: 
-      <label>Pre-School
-        <input name="Grade" type="radio" value="Pre-School">
-      </label>
-      <label>1th
-        <input name="Grade" type="radio" value="1th">
-      </label>
-      <label>2th
-        <input name="Grade" type="radio" value="2th">
-      </label>
-      <label>3th
-        <input name="Grade" type="radio" value="3th">
-      </label>
-      <label>4th
-        <input name="Grade" type="radio" value="4th">
-      </label>
-      <label>5th
-        <input name="Grade" type="radio" value="5th">
-      </label>
-    </label>
-      <br>
-      <h2>Which elementary school do you live near?</h2>
-      <h3>Closest School</h3>
-      <label>
-        AJ Katzenmaier:
-        <input name="CSchool" type="checkbox" value="AJ Katzenmaier">
-      </label>
-      <label>
-        Greenbay:
-        <input name="CSchool" type="checkbox" value="Greenbay">
-      </label>
-      <label>
-        Howard A Yeager:
-        <input name="CSchool" type="checkbox" value=" Howard A Yeager:">
-      </label>
-      <label>
-        Marjorie P Hart:
-        <input name="CSchool" type="checkbox" value="Marjorie P Hart">
-      </label>
-      <label>
-        North Elementary:
-        <input name="CSchool" type="checkbox" value="North Elementary">
-      </label>
-      <label>
-        South Elementary:
-        <input name="CSchool" type="checkbox" value="South Elementary">
-      </label>
-      <h2>What position(s) do you normally play?(check all that apply)</h2>
-      <label>Forward
-        <input name="Position" type="radio" value="Forward">
-      </label>
-      <label>Defense
-        <input name="Position" type="radio" value="Defense">
-      </label>
-      <label>Midfield
-        <input name="Position" type="radio"value="Midfield">
-      </label>
-      <label>Goalkeeper
-        <input name="Position" type="radio" value="Goalkeeper">
-      </label>
-      <h2>Uniform Size</h2>
-      <label>Youth Small
-        <input name="SizeU" type="radio" value="YS">
-      </label>
-      <label>Youth Medium
-        <input name="SizeU" type="radio" value="YM">
-      </label>
-      <label>Youth Large
-        <input name="SizeU" type="radio"value="YL">
-      </label>
-      <label>Small
-        <input name="SizeU" type="radio" value="S">
-      </label>
-      <label>Medium
-        <input name="SizeU" type="radio" value="M">
-      </label>
-      <label>Large
-        <input name="SizeU" type="radio" value="L">
-      </label>
-      <label>Extra-Large
-        <input name="SizeU" type="radio" value="XL">
-      </label>
-      <h3>Permission to Play</h3>
-      <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules
-        of the
-        Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and
-        in
-        consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby
-        release, discharge, and/or otherwise
-        indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for
-        practices and games, againts any claim
-        by or on behalf of the registrant as a result of the registrat's participation in the programand/orbeing
-        transported to or from MDHL sponsored
-        activities, which transportation.
-        By signing below, I here by aggre and authorize the above. In addition, by signing below,I also acknowledge that
-        i have read the cancellation
-        policy and agree to its terms.
-      </p>
-      <label id="agree">Agree:
-      <input name="agree" type="checkbox" value="True"><span style="color:red;">*</span></label>
-    </fieldset>
-    <button id="Send">Send</button>
+      <fieldset>
+        <label>Player's First Name:
+          <input name="Firstname" maxlength="80" type="text"><span style="color:red;">*</span>
+        </label>
+        <label>Last Name:
+          <input name="Lastname" maxlength="80" type="text"><span style="color:red;">*</span>
+        </label>
+        <br>
+        <label>Street Address:
+          <input name="Saddress" maxlength="80" type="text"><span style="color:red;">*</span>
+        </label>
+        <br>
+        <label>City:
+          <input name="city" maxlength="80" type="text"><span style="color:red;">*</span>
+        </label>
+        <label>Zip Code:
+          <input name="zipcode" type="number" id="Zip" min="1" max="100000000">
+        </label>
+        <br>
+        <label>Birth Date (mm/dd/yyyy)
+          <input name="Birthd" type="date">
+        </label>
+        <label>Gender:
+          <label>Male
+            <input name="Gender" type="radio" value="Male">
+          </label>
+          <label>Female
+            <input name="Gender" type="radio" value="Female">
+          </label>
+        </label>
+        <br>
+        <label>
+          Grade:
+          <label>Pre-School
+            <input name="Grade" type="radio" value="Pre-School">
+          </label>
+          <label>1th
+            <input name="Grade" type="radio" value="1th">
+          </label>
+          <label>2th
+            <input name="Grade" type="radio" value="2th">
+          </label>
+          <label>3th
+            <input name="Grade" type="radio" value="3th">
+          </label>
+          <label>4th
+            <input name="Grade" type="radio" value="4th">
+          </label>
+          <label>5th
+            <input name="Grade" type="radio" value="5th">
+          </label>
+        </label>
+        <br>
+        <h2>Which elementary school do you live near?</h2>
+        <h3>Closest School</h3>
+        <label>
+          AJ Katzenmaier:
+          <input name="CSchool" type="checkbox" value="AJ Katzenmaier">
+        </label>
+        <label>
+          Greenbay:
+          <input name="CSchool" type="checkbox" value="Greenbay">
+        </label>
+        <label>
+          Howard A Yeager:
+          <input name="CSchool" type="checkbox" value=" Howard A Yeager:">
+        </label>
+        <label>
+          Marjorie P Hart:
+          <input name="CSchool" type="checkbox" value="Marjorie P Hart">
+        </label>
+        <label>
+          North Elementary:
+          <input name="CSchool" type="checkbox" value="North Elementary">
+        </label>
+        <label>
+          South Elementary:
+          <input name="CSchool" type="checkbox" value="South Elementary">
+        </label>
+        <h2>What position(s) do you normally play?(check all that apply)</h2>
+        <label>Forward
+          <input name="Position" type="radio" value="Forward">
+        </label>
+        <label>Defense
+          <input name="Position" type="radio" value="Defense">
+        </label>
+        <label>Midfield
+          <input name="Position" type="radio" value="Midfield">
+        </label>
+        <label>Goalkeeper
+          <input name="Position" type="radio" value="Goalkeeper">
+        </label>
+        <h2>Uniform Size</h2>
+        <label>Youth Small
+          <input name="SizeU" type="radio" value="YS">
+        </label>
+        <label>Youth Medium
+          <input name="SizeU" type="radio" value="YM">
+        </label>
+        <label>Youth Large
+          <input name="SizeU" type="radio" value="YL">
+        </label>
+        <label>Small
+          <input name="SizeU" type="radio" value="S">
+        </label>
+        <label>Medium
+          <input name="SizeU" type="radio" value="M">
+        </label>
+        <label>Large
+          <input name="SizeU" type="radio" value="L">
+        </label>
+        <label>Extra-Large
+          <input name="SizeU" type="radio" value="XL">
+        </label>
+        <h3>Permission to Play</h3>
+        <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+          rules
+          of the
+          Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey
+          and
+          in
+          consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby
+          release, discharge, and/or otherwise
+          indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for
+          practices and games, againts any claim
+          by or on behalf of the registrant as a result of the registrat's participation in the programand/orbeing
+          transported to or from MDHL sponsored
+          activities, which transportation.
+          By signing below, I here by aggre and authorize the above. In addition, by signing below,I also acknowledge
+          that
+          i have read the cancellation
+          policy and agree to its terms.
+        </p>
+        <label id="agree">Agree:
+          <input name="agree" type="checkbox" value="True"><span style="color:red;">*</span></label>
+      </fieldset>
+      <button id="Send">Send</button>
     </form>
   </main>
 
