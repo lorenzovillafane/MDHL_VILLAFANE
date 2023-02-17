@@ -28,10 +28,136 @@
     </nav>
   </header>
   <div class="Titulo">
-    <h1>RULES</h1>
+    <h1>FORM</h1>
   </div>
+  <h2>REGISTRATION FORM</h2>
+  <fieldset>
+    <label>Player's First Name:
+      <input name="Firstname" maxlength="80" type="text"><span style="color:red;">*</span>
+    </label>
+    <label>Last Name:
+      <input name="Lastname" maxlength="80" type="text"><span style="color:red;">*</span>
+    </label>
+    <br>
+    <label>Street Address:
+      <input name="Saddress" maxlength="80" type="text"><span style="color:red;">*</span>
+    </label>
+    <br>
+    <label>City:
+      <input name="city" maxlength="80" type="text"><span style="color:red;">*</span>
+    </label>
+    <label>Zip Code:
+      <input name="zipcode" type="number" id="Zip" min="9000000" max="100000000">
+    </label>
+    <br>
+    <label>Birth Date(mm/dd/yyyy)
+      <input name="Birthd" type="date">
+    </label>
+    Gender:
+    <label>Male
+      <input name="gender" type="radio">
+    </label>
+    <label>Female
+      <input name="gender" type="radio">
+    </label>
+    <br>
+    Grade:
+    <label>Pre-School
+      <input name="Grade" type="radio">
+    </label>
+    <label>1th
+      <input name="Grade" type="radio">
+    </label>
+    <label>2th
+      <input name="Grade" type="radio">
+    </label>
+    <label>3th
+      <input name="Grade" type="radio">
+    </label>
+    <label>4th
+      <input name="Grade" type="radio">
+    </label>
+    <label>5th
+      <input name="Grade" type="radio">
+    </label>
+    <br>
+    <h2>Which elementary school do you live near?</h2>
+    <h3>Closest School</h3>
+    <label>
+      AJ Katzenmaier:
+      <input name="CSchool" type="checkbox" value="V">
+    </label>
+    <label>
+      Greenbay:
+      <input name="CSchool" type="checkbox" value="V">
+    </label>
+    <label>
+      Howard A Yeager:
+      <input name="CSchool" type="checkbox" value="V">
+    </label>
+    <label>
+      Marjorie P Hart:
+      <input name="CSchool" type="checkbox" value="V">
+    </label>
+    <label>
+      North Elementary:
+      <input name="CSchool" type="checkbox" value="V">
+    </label>
+    <label>
+      South Elementary:
+      <input name="CSchool" type="checkbox" value="V">
+    </label>
+    <h2>What position(s) do you normally play?(check all that apply)</h2>
+    <label>Forward
+      <input name="PositionG" type="radio">
+    </label>
+    <label>Defense
+      <input name="PositionG" type="radio">
+    </label>
+    <label>Midfield
+      <input name="PositionG" type="radio">
+    </label>
+    <label>Goalkeeper
+      <input name="PositionG" type="radio">
+    </label>
+    <h2>Uniform Size</h2>
+    <label>Youth Small
+      <input name="SizeU" type="radio">
+    </label>
+    <label>Youth Medium
+      <input name="SizeU" type="radio">
+    </label>
+    <label>Youth Large
+      <input name="SizeU" type="radio">
+    </label>
+    <label>Small
+      <input name="SizeU" type="radio">
+    </label>
+    <label>Medium
+      <input name="SizeU" type="radio">
+    </label>
+    <label>Large
+      <input name="SizeU" type="radio">
+    </label>
+    <label>Extra-Large
+      <input name="SizeU" type="radio">
+    </label>
+<h3>Permission to Play</h3>
+<p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the 
+  Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in 
+  consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise 
+  indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, againts any claim
+  by or on behalf of the registrant as a result of the registrat's participation in the programand/orbeing transported to or from MDHL sponsored
+  activities, which transportation.
+  By signing below, I here by aggre and authorize the above. In addition, by signing below,I also acknowledge that i have read the cancellation 
+  policy and agree to its terms.
+</p>
+Agree:
+<input name="agree" type="checkbox" value="V"><span style="color:red;">*</span>
+  </fieldset>
+  <button>Send</button>
+  </form>
 
-  
 </body>
 
 </html>
